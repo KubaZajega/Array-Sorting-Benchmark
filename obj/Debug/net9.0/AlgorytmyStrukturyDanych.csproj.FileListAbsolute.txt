@@ -1,0 +1,14 @@
+C:\Users\jzaje\RiderProjects\AlgorytmyStrukturyDanych\obj\Debug\net9.0\AlgorytmyStrukturyDanych.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jzaje\RiderProjects\AlgorytmyStrukturyDanych\obj\Debug\net9.0\AlgorytmyStrukturyDanych.AssemblyInfoInputs.cache
+C:\Users\jzaje\RiderProjects\AlgorytmyStrukturyDanych\obj\Debug\net9.0\AlgorytmyStrukturyDanych.AssemblyInfo.cs
+C:\Users\jzaje\RiderProjects\AlgorytmyStrukturyDanych\obj\Debug\net9.0\AlgorytmyStrukturyDanych.csproj.CoreCompileInputs.cache
+C:\Users\jzaje\RiderProjects\AlgorytmyStrukturyDanych\bin\Debug\net9.0\AlgorytmyStrukturyDanych.exe
+C:\Users\jzaje\RiderProjects\AlgorytmyStrukturyDanych\bin\Debug\net9.0\AlgorytmyStrukturyDanych.deps.json
+C:\Users\jzaje\RiderProjects\AlgorytmyStrukturyDanych\bin\Debug\net9.0\AlgorytmyStrukturyDanych.runtimeconfig.json
+C:\Users\jzaje\RiderProjects\AlgorytmyStrukturyDanych\bin\Debug\net9.0\AlgorytmyStrukturyDanych.dll
+C:\Users\jzaje\RiderProjects\AlgorytmyStrukturyDanych\bin\Debug\net9.0\AlgorytmyStrukturyDanych.pdb
+C:\Users\jzaje\RiderProjects\AlgorytmyStrukturyDanych\obj\Debug\net9.0\AlgorytmyStrukturyDanych.dll
+C:\Users\jzaje\RiderProjects\AlgorytmyStrukturyDanych\obj\Debug\net9.0\refint\AlgorytmyStrukturyDanych.dll
+C:\Users\jzaje\RiderProjects\AlgorytmyStrukturyDanych\obj\Debug\net9.0\AlgorytmyStrukturyDanych.pdb
+C:\Users\jzaje\RiderProjects\AlgorytmyStrukturyDanych\obj\Debug\net9.0\AlgorytmyStrukturyDanych.genruntimeconfig.cache
+C:\Users\jzaje\RiderProjects\AlgorytmyStrukturyDanych\obj\Debug\net9.0\ref\AlgorytmyStrukturyDanych.dll

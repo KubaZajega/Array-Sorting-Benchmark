@@ -1,0 +1,4 @@
+C:\Users\jzaje\RiderProjects\AlgorytmyStrukturyDanych\obj\Debug\net8.0\AlgorytmyStrukturyDanych.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jzaje\RiderProjects\AlgorytmyStrukturyDanych\obj\Debug\net8.0\AlgorytmyStrukturyDanych.AssemblyInfoInputs.cache
+C:\Users\jzaje\RiderProjects\AlgorytmyStrukturyDanych\obj\Debug\net8.0\AlgorytmyStrukturyDanych.AssemblyInfo.cs
+C:\Users\jzaje\RiderProjects\AlgorytmyStrukturyDanych\obj\Debug\net8.0\AlgorytmyStrukturyDanych.csproj.CoreCompileInputs.cache
