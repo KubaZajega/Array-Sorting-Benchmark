@@ -2,7 +2,7 @@
 <html lang='en'>
 <head>
 <meta charset='utf-8' />
-<title>ArraySortingBenchmark-20250302-172604</title>
+<title>ArraySortingBenchmark-20250316-164007</title>
 
 <style type="text/css">
 	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
@@ -13,19 +13,37 @@
 </head>
 <body>
 <pre><code>
-BenchmarkDotNet v0.14.0, Windows 11 (10.0.26100.3323)
-AMD Ryzen 7 7735U with Radeon Graphics, 1 CPU, 16 logical and 8 physical cores
-.NET SDK 9.0.100
-  [Host]     : .NET 9.0.0 (9.0.24.52809), X64 RyuJIT AVX2
-  DefaultJob : .NET 9.0.0 (9.0.24.52809), X64 RyuJIT AVX2
+BenchmarkDotNet v0.14.0, macOS Sequoia 15.3.1 (24D70) [Darwin 24.3.0]
+Apple M4, 1 CPU, 10 logical and 10 physical cores
+.NET SDK 9.0.200
+  [Host]     : .NET 9.0.2 (9.0.225.6610), Arm64 RyuJIT AdvSIMD
+  DefaultJob : .NET 9.0.2 (9.0.225.6610), Arm64 RyuJIT AdvSIMD
 </code></pre>
 <pre><code></code></pre>
 
 <table>
-<thead><tr><th>Method      </th><th>Mean</th><th>Error</th><th>StdDev</th><th>Gen0</th><th>Gen1</th><th>Allocated</th>
+<thead><tr><th>Method                           </th><th>Mean     </th><th>Error </th><th>StdDev</th><th>Gen0</th><th>Gen1</th><th>Gen2</th><th>Allocated</th>
 </tr>
-</thead><tbody><tr><td>SortArray</td><td>3.252 &mu;s</td><td>0.0199 &mu;s</td><td>0.0186 &mu;s</td><td>-</td><td>-</td><td>-</td>
-</tr><tr><td>SortArrayUsingLinq</td><td>9.940 &mu;s</td><td>0.1479 &mu;s</td><td>0.1235 &mu;s</td><td>1.9379</td><td>0.1068</td><td>16304 B</td>
+</thead><tbody><tr><td>SortArrayRandom</td><td>536.13 &mu;s</td><td>3.027 &mu;s</td><td>2.832 &mu;s</td><td>-</td><td>-</td><td>-</td><td>1 B</td>
+</tr><tr><td>SortArrayUsingInsertionSortRandom</td><td>62.76 &mu;s</td><td>0.147 &mu;s</td><td>0.137 &mu;s</td><td>-</td><td>-</td><td>-</td><td>-</td>
+</tr><tr><td>SortArrayUsingMergeSortRandom</td><td>2,674.14 &mu;s</td><td>29.104 &mu;s</td><td>27.224 &mu;s</td><td>1582.0313</td><td>230.4688</td><td>230.4688</td><td>12131806 B</td>
+</tr><tr><td>SortArrayUsingQuickSortRandom</td><td>1,217,320.21 &mu;s</td><td>6,063.568 &mu;s</td><td>5,671.865 &mu;s</td><td>-</td><td>-</td><td>-</td><td>4 B</td>
+</tr><tr><td>SortArraySorted</td><td>548.57 &mu;s</td><td>10.844 &mu;s</td><td>10.650 &mu;s</td><td>-</td><td>-</td><td>-</td><td>1 B</td>
+</tr><tr><td>SortArrayUsingInsertionSortSorted</td><td>63.59 &mu;s</td><td>0.472 &mu;s</td><td>0.394 &mu;s</td><td>-</td><td>-</td><td>-</td><td>-</td>
+</tr><tr><td>SortArrayUsingMergeSortSorted</td><td>2,705.84 &mu;s</td><td>37.706 &mu;s</td><td>35.270 &mu;s</td><td>1582.0313</td><td>230.4688</td><td>230.4688</td><td>12131802 B</td>
+</tr><tr><td>SortArrayUsingQuickSortSorted</td><td>1,213,129.70 &mu;s</td><td>1,708.561 &mu;s</td><td>1,426.726 &mu;s</td><td>-</td><td>-</td><td>-</td><td>46 B</td>
+</tr><tr><td>SortArrayReversed</td><td>491.66 &mu;s</td><td>1.441 &mu;s</td><td>1.348 &mu;s</td><td>-</td><td>-</td><td>-</td><td>-</td>
+</tr><tr><td>SortArrayUsingInsertionSortReversed</td><td>63.17 &mu;s</td><td>0.053 &mu;s</td><td>0.047 &mu;s</td><td>-</td><td>-</td><td>-</td><td>-</td>
+</tr><tr><td>SortArrayUsingMergeSortReversed</td><td>2,726.51 &mu;s</td><td>22.667 &mu;s</td><td>20.093 &mu;s</td><td>1582.0313</td><td>230.4688</td><td>230.4688</td><td>12131758 B</td>
+</tr><tr><td>SortArrayUsingQuickSortReversed</td><td>1,227,522.89 &mu;s</td><td>1,904.459 &mu;s</td><td>1,781.432 &mu;s</td><td>-</td><td>-</td><td>-</td><td>736 B</td>
+</tr><tr><td>SortArrayAlmostSorted</td><td>484.86 &mu;s</td><td>0.680 &mu;s</td><td>0.603 &mu;s</td><td>-</td><td>-</td><td>-</td><td>-</td>
+</tr><tr><td>SortArrayUsingInsertionSortAlmostSorted</td><td>63.15 &mu;s</td><td>0.036 &mu;s</td><td>0.033 &mu;s</td><td>-</td><td>-</td><td>-</td><td>-</td>
+</tr><tr><td>SortArrayUsingMergeSortAlmostSorted</td><td>2,685.37 &mu;s</td><td>13.789 &mu;s</td><td>12.899 &mu;s</td><td>1582.0313</td><td>230.4688</td><td>230.4688</td><td>12131780 B</td>
+</tr><tr><td>SortArrayUsingQuickSortAlmostSorted</td><td>1,234,089.50 &mu;s</td><td>2,049.324 &mu;s</td><td>1,916.939 &mu;s</td><td>-</td><td>-</td><td>-</td><td>736 B</td>
+</tr><tr><td>SortArrayFewUnique</td><td>490.36 &mu;s</td><td>1.433 &mu;s</td><td>1.341 &mu;s</td><td>-</td><td>-</td><td>-</td><td>-</td>
+</tr><tr><td>SortArrayFewUniqueUsingInsertionSort</td><td>63.16 &mu;s</td><td>0.081 &mu;s</td><td>0.067 &mu;s</td><td>-</td><td>-</td><td>-</td><td>-</td>
+</tr><tr><td>SortArrayFewUniqueUsingMergeSort</td><td>2,929.83 &mu;s</td><td>39.301 &mu;s</td><td>36.762 &mu;s</td><td>1582.0313</td><td>230.4688</td><td>230.4688</td><td>12131769 B</td>
+</tr><tr><td>SortArrayFewUniqueUsingQuickSort</td><td>1,213,789.98 &mu;s</td><td>3,116.912 &mu;s</td><td>2,915.561 &mu;s</td><td>-</td><td>-</td><td>-</td><td>736 B</td>
 </tr></tbody></table>
 </body>
 </html>

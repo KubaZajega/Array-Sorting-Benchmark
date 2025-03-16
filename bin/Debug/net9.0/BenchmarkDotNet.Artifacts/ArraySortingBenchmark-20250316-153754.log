@@ -1,0 +1,7 @@
+// Validating benchmarks:
+// Benchmark ArraySortingBenchmark.SortArray: DefaultJob
+//    * BenchmarkDotNet requires dotnet SDK to be installed or path to local dotnet cli provided in explicit way using `--cli` argument, benchmark 'ArraySortingBenchmark.SortArray: DefaultJob' will not be executed
+
+// Benchmark ArraySortingBenchmark.SortArrayUsingLinq: DefaultJob
+//    * BenchmarkDotNet requires dotnet SDK to be installed or path to local dotnet cli provided in explicit way using `--cli` argument, benchmark 'ArraySortingBenchmark.SortArrayUsingLinq: DefaultJob' will not be executed
+

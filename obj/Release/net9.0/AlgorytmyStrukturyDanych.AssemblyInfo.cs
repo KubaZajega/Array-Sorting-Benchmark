@@ -11,9 +11,9 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("AlgorytmyStrukturyDanych")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cacc3fa76d4a1f4b97d08123d93a9a470fc2737e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e06b7c8c9a637e8e061f7e7ec8f9bb6bff7751a")]
 [assembly: System.Reflection.AssemblyProductAttribute("AlgorytmyStrukturyDanych")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AlgorytmyStrukturyDanych")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
