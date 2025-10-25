@@ -1,10 +1,10 @@
 # Array Sorting Benchmark
 
-## 📌 Opis
+## 📌 About the project
 
-Ten projekt benchmarkuje różne algorytmy sortowania tablic przy użyciu [BenchmarkDotNet](https://benchmarkdotnet.org/). Testy zostały przeprowadzone na **Apple M4** z systemem macOS Sequoia 15.3.1 oraz .NET 9.0.2.
+This project benchmarks various array sorting algorithms using BenchmarkDotNet. The tests were conducted on an Apple M4 running macOS Sequoia 15.3.1 and .NET 9.0.2.
 
-## 📊 Wyniki testów
+## 📊 Results
 
 | Method                                  | Mean            | Error        | StdDev       | Gen0      | Gen1     | Gen2     | Allocated  |
 |---------------------------------------- |----------------:|-------------:|-------------:|----------:|---------:|---------:|-----------:|
@@ -30,7 +30,7 @@ Ten projekt benchmarkuje różne algorytmy sortowania tablic przy użyciu [Bench
 | SortArrayFewUniqueUsingQuickSort        | 1,213,789.98 μs | 3,116.912 μs | 2,915.561 μs |         - |        - |        - |      736 B |
 
 
-## 🛠 Technologie
+## 🛠 Technologies
 
 - .NET 9.0.2
 - BenchmarkDotNet
